@@ -1,0 +1,15 @@
+$font-title-navbar: Lobster, cursive;
+$primary-color-text: #FFF8E7;
+
+$font-items-navbar: Solway, serif;
+
+
+.textTitle {
+    font: 2rem $font-title-navbar;
+    color: $primary-color-text !important;
+}
+
+.textItems {
+    color: $primary-color-text !important;
+    font: 1rem $font-items-navbar;
+}

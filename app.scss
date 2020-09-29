@@ -1,0 +1,28 @@
+$font-items-principal: Solway, serif;
+
+* {
+    overflow-x: hidden;
+}
+
+$theme-colors: (
+    "light": #00ACEE,
+    "primary": #00ACEE,
+);
+
+.principalText {
+    color: #000000 !important;
+    font: 3rem $font-items-principal;
+    font-weight: bold;
+}
+
+.principalButton {
+    font: 10rem $font-items-principal;
+    font-weight: bold;
+}
+
+.images {
+    height: 700px;
+    width: 600px;
+}
+
+@import "~bootstrap/scss/bootstrap";
