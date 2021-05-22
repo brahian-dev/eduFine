@@ -1,4 +1,3 @@
-import 'aos/dist/aos.css';
 import '../app.scss';
 
 function MyApp({ Component, pageProps }) {

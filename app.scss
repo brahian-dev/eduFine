@@ -15,6 +15,12 @@ $theme-colors: (
     font-weight: bold;
 }
 
+.secondayText {
+    color: #000000 !important;
+    font: 2rem $font-items-principal !important;
+    font-weight: bold;
+}
+
 .principalButton {
     font: 10rem $font-items-principal;
     font-weight: bold;

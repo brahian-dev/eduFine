@@ -1,4 +1,5 @@
 import { Row, Col, Button } from 'react-bootstrap';
+import Link from 'next/link';
 
 const FirstSection = () => {
     return (
@@ -7,7 +8,9 @@ const FirstSection = () => {
                 <Col className="ml-3">
                     ¿ Tienes problemas para organizar tus recursos virtuales ?
                     <Col>
-                        <Button variant="primary" className="mt-5" size="lg">Comienza la aventura</Button>
+                        <Link href="/login">
+                            <Button variant="primary" className="mt-5" size="lg">Comienza la aventura</Button>
+                        </Link>
                     </Col>
                 </Col>
             </Col>
